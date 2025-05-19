@@ -1,12 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-export default function constant() {
+const Slider = () => {
   return (
     <View>
-      <Text>constant</Text>
+      <Text>Slider</Text>
     </View>
   )
 }
+
+export default Slider
 
 const styles = StyleSheet.create({})

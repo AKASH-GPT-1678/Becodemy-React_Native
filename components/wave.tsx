@@ -1,12 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-export default function constant() {
+const Wave = () => {
   return (
     <View>
-      <Text>constant</Text>
+      <Text>Wave</Text>
     </View>
   )
 }
+
+export default Wave
 
 const styles = StyleSheet.create({})

@@ -1,10 +1,10 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-export default function constant() {
+export default function Slide() {
   return (
     <View>
-      <Text>constant</Text>
+      <Text>slide</Text>
     </View>
   )
 }

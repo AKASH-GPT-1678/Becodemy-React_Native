@@ -3,7 +3,7 @@ import { getStatusBarHeight } from "react-native-status-bar-height";
 
 export const SCREEN_HEIGHT = Dimensions.get("window").height;
 export const SCREEN_WIDTH = Dimensions.get("window").width;
-
+//@ts-ignore
 export const IsIOS = Platform.OS === "ios";
 export const IsIPAD = IsIOS && SCREEN_HEIGHT / SCREEN_WIDTH < 1.6;
 export const IsAndroid = Platform.OS === "android";
